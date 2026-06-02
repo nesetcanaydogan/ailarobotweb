@@ -6,7 +6,7 @@
 - [x] 01-01-PLAN.md — Initialize monorepo workspace and shared validation package.
 - [x] 01-02-PLAN.md — Setup backend foundation with Express and Prisma.
 - [/] 01-03-PLAN.md — Setup frontend foundation with Vite, React 19, and Tailwind v4. (In Progress)
-- [ ] 01-04-PLAN.md — Implement UI shell (Navbar, Footer, Shell).
+- [x] 01-04-PLAN.md — Implement UI shell (Navbar, Footer, Shell).
 
 ## Phase 2: Core UI Components (The 'Internal Dashboard')
 - [ ] Implement Glassy Feature Cards.
