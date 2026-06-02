@@ -1,0 +1,17 @@
+{
+  "stack": {
+    "frontend": "React 19",
+    "styling": "Tailwind CSS v4",
+    "3d": "React Three Fiber (Three.js)",
+    "backend": "Node.js (Express/Fastify)",
+    "database": "PostgreSQL (Prisma ORM)"
+  },
+  "workflow": {
+    "gsd_mode": "full",
+    "atomic_commits": true
+  },
+  "features": {
+    "demo": "GPT-4o Agentic RAG preview",
+    "interaction": "Scroll-synchronized 3D animation"
+  }
+}
