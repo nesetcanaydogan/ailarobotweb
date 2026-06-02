@@ -4,7 +4,7 @@
 **Goal:** A functional monorepo structure with shared design tokens and a basic layout shell.
 **Plans:** 4 plans
 - [x] 01-01-PLAN.md — Initialize monorepo workspace and shared validation package.
-- [/] 01-02-PLAN.md — Setup backend foundation with Express and Prisma. (In Progress)
+- [x] 01-02-PLAN.md — Setup backend foundation with Express and Prisma.
 - [/] 01-03-PLAN.md — Setup frontend foundation with Vite, React 19, and Tailwind v4. (In Progress)
 - [ ] 01-04-PLAN.md — Implement UI shell (Navbar, Footer, Shell).
 
