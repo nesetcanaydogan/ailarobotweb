@@ -12,7 +12,7 @@
 **Plans:** 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Implement foundations (Button, FeatureCard) and Lead API.
+- [ ] 02-01-PLAN.md — Setup Vitest, implement foundations (Button, FeatureCard) and Lead API.
 - [ ] 02-02-PLAN.md — Implement interactive sections (Hero, LeadForm).
 
 ## Phase 3: 3D Integration & Scroll Magic
