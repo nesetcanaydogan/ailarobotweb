@@ -1,0 +1,15 @@
+{
+  "name": "@aila/shared",
+  "version": "0.1.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "scripts": {
+    "test": "node --import tsx --test src/**/*.test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4"
+  }
+}
