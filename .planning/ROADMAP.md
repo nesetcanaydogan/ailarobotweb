@@ -1,18 +1,19 @@
 # AILA - Roadmap
 
-## Phase 1: Foundation & Environment Setup
+## Phase 1: Foundation & Environment Setup (Completed)
 **Goal:** A functional monorepo structure with shared design tokens and a basic layout shell.
-**Plans:** 4 plans
 - [x] 01-01-PLAN.md — Initialize monorepo workspace and shared validation package.
 - [x] 01-02-PLAN.md — Setup backend foundation with Express and Prisma.
-- [/] 01-03-PLAN.md — Setup frontend foundation with Vite, React 19, and Tailwind v4. (In Progress)
+- [x] 01-03-PLAN.md — Setup frontend foundation with Vite, React 19, and Tailwind v4.
 - [x] 01-04-PLAN.md — Implement UI shell (Navbar, Footer, Shell).
 
 ## Phase 2: Core UI Components (The 'Internal Dashboard')
-- [ ] Implement Glassy Feature Cards.
-- [ ] Implement Primary & Secondary Buttons.
-- [ ] Create the Hero Section Layout.
-- [ ] Implement the Contact/Lead Form.
+**Goal:** Implement the 'Internal Dashboard' aesthetic with reusable UI components and lead capture functionality.
+**Plans:** 2 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Implement foundations (Button, FeatureCard) and Lead API.
+- [ ] 02-02-PLAN.md — Implement interactive sections (Hero, LeadForm).
 
 ## Phase 3: 3D Integration & Scroll Magic
 - [ ] Setup Three.js Canvas with React Three Fiber.
