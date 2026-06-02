@@ -1,28 +1,25 @@
 import Shell from './components/Layout/Shell';
+import { Hero } from './components/sections/Hero';
+import { LeadForm } from './components/forms/LeadForm';
+import React from 'react';
 
 function App() {
   return (
     <Shell>
-      <div className="flex flex-col items-center justify-center py-20">
-        <h1 className="text-display-xl font-aeonikpro text-ghost-white mb-4">
-          Welcome to AILA
-        </h1>
-        <p className="text-subheading text-comet max-w-2xl text-center">
-          Experience the future of autonomous intelligence. Your dashboard is ready for deployment.
-        </p>
+      <div className="flex flex-col gap-24 pb-24">
+        <Hero />
         
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
-          {[
-            { title: 'System Status', value: 'Operational', color: 'text-green-400' },
-            { title: 'Active Agents', value: '12', color: 'text-neon-violet' },
-            { title: 'Uptime', value: '99.9%', color: 'text-azure-glow' },
-          ].map((stat) => (
-            <div key={stat.title} className="bg-white/5 border border-white/10 rounded-cards p-6 backdrop-blur-sm">
-              <p className="text-caption uppercase tracking-widest text-comet/40 mb-2">{stat.title}</p>
-              <p className={`text-heading-lg font-bold ${stat.color}`}>{stat.value}</p>
-            </div>
-          ))}
-        </div>
+        <section id="demo" className="flex flex-col items-center gap-12">
+          <div className="text-center max-w-2xl">
+            <h2 className="text-display font-aeonikpro text-ghost-white mb-4">
+              Ready to meet AILA?
+            </h2>
+            <p className="text-subheading text-comet">
+              Join the waitlist for exclusive access to the first production batch and early developer kits.
+            </p>
+          </div>
+          <LeadForm />
+        </section>
       </div>
     </Shell>
   );
