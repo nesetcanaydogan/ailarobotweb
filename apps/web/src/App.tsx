@@ -1,5 +1,8 @@
 import Shell from './components/Layout/Shell';
 import { Hero } from './components/sections/Hero';
+import { Verticals } from './components/sections/Verticals';
+import { HowItWorks } from './components/sections/HowItWorks';
+import { PlatformStory } from './components/sections/PlatformStory';
 import { LeadForm } from './components/forms/LeadForm';
 import { Scene } from './components/3d/Scene';
 import { useScrollTimeline } from './hooks/useScrollTimeline';
@@ -17,7 +20,11 @@ function App() {
           <div className="flex flex-col gap-24 pb-24">
             <Hero />
             
-            <section id="demo" className="flex flex-col items-center gap-12">
+            <Verticals />
+            <HowItWorks />
+            <PlatformStory />
+            
+            <section id="demo" className="flex flex-col items-center gap-12 relative z-20">
               <div className="text-center max-w-2xl">
                 <h2 className="text-display font-aeonikpro text-ghost-white mb-4">
                   Ready to meet AILA?
