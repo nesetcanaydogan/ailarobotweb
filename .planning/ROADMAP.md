@@ -12,18 +12,18 @@
 - [x] 02-01-PLAN.md — Setup Vitest, implement foundations (Button, FeatureCard) and Lead API.
 - [x] 02-02-PLAN.md — Implement interactive sections (Hero, LeadForm).
 
-## Phase 3: 3D Integration & Scroll Magic
-**Goal:** Create a high-end 3D scroll experience where AILA robot narrates the platform story.
-**Plans:** 2/3 plans executed
-- [x] 03-01-PLAN.md — Setup Three.js Canvas, ScrollControls, and AILA placeholder.
-- [x] 03-02-PLAN.md — Implement narrative content sections (Verticals, How it Works) with anchor links.
-- [ ] 03-03-PLAN.md — Implement GSAP scroll-synced animations and fine-tune Z-index/lighting.
+## Phase 3: 3D Integration & Scroll Magic (Completed)
+**Goal:** Create a cinematic, scroll-synced journey for the AILA robot.
+- [x] 03-01-PLAN.md — Setup 3D engine foundation and GSAP ScrollTrigger.
+- [x] 03-02-PLAN.md — Implement narrative content and anchor navigation.
+- [x] 03-03-PLAN.md — Cinematic scroll animations and lighting/polish.
 
 ## Phase 4: Agentic Demo & Backend
-- [ ] Setup GPT-4o Proxy Endpoint.
-- [ ] Implement Demo Input & Processing Logic.
-- [ ] Create Demo Result Visualization.
-- [ ] Setup Database & Lead Capture persistence.
+**Goal:** A streaming, personalized AILA demo that captures leads and stores configurations.
+**Plans:** 3 plans
+- [ ] 04-01-PLAN.md — Backend Infrastructure (OpenAI SDK, SSE Proxy, Prisma).
+- [ ] 04-02-PLAN.md — Frontend Logic & Streaming (useAilaDemo, Progress UI).
+- [ ] 04-03-PLAN.md — Result Visualization & Polish (Dashboard, Transitions).
 
 ## Phase 5: Polish & Deployment
 - [ ] Add atmospheric glows and subtle gradients.
