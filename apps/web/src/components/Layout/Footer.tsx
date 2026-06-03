@@ -20,9 +20,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-sm font-semibold text-ghost-white">Platform</h3>
             <ul className="mt-4 space-y-2">
-              <li><a href="#" className="text-sm text-comet/60 hover:text-ghost-white transition-colors">Dashboard</a></li>
-              <li><a href="#" className="text-sm text-comet/60 hover:text-ghost-white transition-colors">Integrations</a></li>
-              <li><a href="#" className="text-sm text-comet/60 hover:text-ghost-white transition-colors">API Reference</a></li>
+              <li><a href="#verticals" className="text-sm text-comet/60 hover:text-ghost-white transition-colors">Verticals</a></li>
+              <li><a href="#about" className="text-sm text-comet/60 hover:text-ghost-white transition-colors">How it Works</a></li>
+              <li><a href="#story" className="text-sm text-comet/60 hover:text-ghost-white transition-colors">Platform Story</a></li>
+              <li><a href="#demo" className="text-sm text-comet/60 hover:text-ghost-white transition-colors">Get Started</a></li>
             </ul>
           </div>
           <div>

@@ -14,17 +14,17 @@ const Navbar: React.FC = () => {
 
         <div className="hidden md:block">
           <div className="flex items-center space-x-8">
-            <a href="#" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
-              Dashboard
+            <a href="#verticals" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
+              Verticals
             </a>
-            <a href="#" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
-              Agents
+            <a href="#about" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
+              How it Works
             </a>
-            <a href="#" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
-              Analytics
+            <a href="#story" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
+              Platform Story
             </a>
-            <a href="#" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
-              Settings
+            <a href="#demo" className="text-sm font-medium text-comet transition-colors hover:text-ghost-white">
+              Get Started
             </a>
           </div>
         </div>
