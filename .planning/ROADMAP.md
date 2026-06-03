@@ -21,9 +21,9 @@
 ## Phase 4: Agentic Demo & Backend
 **Goal:** A streaming, personalized AILA demo that captures leads and stores configurations.
 **Plans:** 3 plans
-- [ ] 04-01-PLAN.md — Backend Infrastructure (OpenAI SDK, SSE Proxy, Prisma).
+- [ ] 04-01-PLAN.md — Backend Foundation & Persistence (SSE Proxy, Prisma).
 - [ ] 04-02-PLAN.md — Frontend Logic & Streaming (useAilaDemo, Progress UI).
-- [ ] 04-03-PLAN.md — Result Visualization & Polish (Dashboard, Transitions).
+- [ ] 04-03-PLAN.md — Result Visualization & Integration (Dashboard, Transitions).
 
 ## Phase 5: Polish & Deployment
 - [ ] Add atmospheric glows and subtle gradients.
