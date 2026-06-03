@@ -7,19 +7,16 @@
 - [x] 01-03-PLAN.md — Setup frontend foundation with Vite, React 19, and Tailwind v4.
 - [x] 01-04-PLAN.md — Implement UI shell (Navbar, Footer, Shell).
 
-## Phase 2: Core UI Components (The 'Internal Dashboard')
+## Phase 2: Core UI Components (The 'Internal Dashboard') (Completed)
 **Goal:** Implement the 'Internal Dashboard' aesthetic with reusable UI components and lead capture functionality.
-**Plans:** 2 plans
-
-Plans:
-- [ ] 02-01-PLAN.md — Setup Vitest, implement foundations (Button, FeatureCard) and Lead API.
-- [ ] 02-02-PLAN.md — Implement interactive sections (Hero, LeadForm).
+- [x] 02-01-PLAN.md — Setup Vitest, implement foundations (Button, FeatureCard) and Lead API.
+- [x] 02-02-PLAN.md — Implement interactive sections (Hero, LeadForm).
 
 ## Phase 3: 3D Integration & Scroll Magic
-- [ ] Setup Three.js Canvas with React Three Fiber.
-- [ ] Integrate Placeholder AILA Model.
-- [ ] Implement Scroll-Synced Animation Logic (Rotation, Positioning).
-- [ ] Fine-tune Z-index interactions (AILA moving behind/over elements).
+**Goal:** Create a high-end 3D scroll experience where AILA robot narrates the platform story.
+- [ ] 03-01-PLAN.md — Setup Three.js Canvas, ScrollControls, and AILA placeholder.
+- [ ] 03-02-PLAN.md — Implement narrative content sections (Verticals, How it Works) with anchor links.
+- [ ] 03-03-PLAN.md — Implement GSAP scroll-synced animations and fine-tune Z-index/lighting.
 
 ## Phase 4: Agentic Demo & Backend
 - [ ] Setup GPT-4o Proxy Endpoint.
