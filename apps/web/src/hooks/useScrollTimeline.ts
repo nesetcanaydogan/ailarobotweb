@@ -1,4 +1,4 @@
-import { useLayoutEffect, useState, MutableRefObject } from 'react';
+import { useEffect, useState, MutableRefObject } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import * as THREE from 'three';
@@ -8,7 +8,8 @@ gsap.registerPlugin(ScrollTrigger);
 export function useScrollTimeline(targetRef?: MutableRefObject<THREE.Group | null>) {
   const [timeline, setTimeline] = useState<gsap.core.Timeline | null>(null);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
+    // Ensure the trigger exists in the DOM
     const trigger = document.querySelector('#main-container');
     if (!trigger) return;
 
@@ -19,7 +20,7 @@ export function useScrollTimeline(targetRef?: MutableRefObject<THREE.Group | nul
           start: 'top top',
           end: 'bottom bottom',
           scrub: 1.5,
-          markers: import.meta.env.DEV ? { startColor: 'green', endColor: 'red', fontSize: '12px' } : false,
+          markers: false, // Set to true for debugging if needed
         },
       });
 
@@ -93,7 +94,7 @@ export function useScrollTimeline(targetRef?: MutableRefObject<THREE.Group | nul
       }
 
       setTimeline(tl);
-    }, targetRef);
+    }); // Scope removed: Three.js objects are not valid DOM scopes
 
     return () => ctx.revert();
   }, [targetRef]);
